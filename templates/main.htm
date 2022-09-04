@@ -1,0 +1,24 @@
+<<!DOCTYPE HTML>
+<!--Здесь будет главная страница сайта-->
+<html>
+<head>
+	<meta charset="utf-8">
+	<base href="https://proproprogs.ru/">
+	<title>Про программирование</title>
+</head>
+<body>
+
+<ul>
+{% for u in users -%}
+	<li>{{u.name}}
+{% endfor -%}
+</ul>
+
+<ul>
+{% for i in users -%}
+	<li>Имя: {{i.name}}; возраст: {{i.old}}; рост: {{i.height}} см.
+{% endfor -%}
+</ul>
+
+</body>
+</html>

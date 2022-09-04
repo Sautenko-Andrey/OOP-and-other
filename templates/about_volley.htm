@@ -1,0 +1,11 @@
+{% extends 'general.htm' %}
+{% block for_title %}{{ super() }}
+<p>Тра-ля-ля
+{% endblock -%}
+
+{%- block for_content -%}
+<p>We love volley
+<p>We love beach
+<p>We love beer
+{%- block go_list -%}{{super()}}{% endblock go_list -%}
+{%- endblock %}

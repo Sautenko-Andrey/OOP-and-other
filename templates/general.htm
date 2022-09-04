@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>{% block for_title %}About beach volleyball{% endblock %}</title>
+</head>
+<body>
+{% block for_content %}
+<p>Информация.
+	{% block go_list %}
+	<ul>
+	{% for team in some_list %}
+	<li>{{team}}</li>
+	{% endfor %}
+	{% endblock go_list %}
+	</ul>
+{% endblock %}	
+
+
+</body>
