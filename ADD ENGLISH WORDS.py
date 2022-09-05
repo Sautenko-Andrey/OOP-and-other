@@ -382,7 +382,7 @@ def main():
                 'ОБЪЯВЛЕНИЕ':'AD','ПО КРАЙНЕЙ МЕРЕ/ ВО ВСЯКОМ СЛУЧАЕ':'AT LEAST','ПЫЛЬ':'DUST','В ПОСЛЕДНЕЕ ВРЕМЯ':'LATELY',
                 'ВЗАИМОДЕЙСТВОВАТЬ/ОБЩАТЬСЯ':'TO INTERACT','НЕПРИЕМЛЕМЫЙ/НЕСОСТОЯТЕЛЬНЫЙ':'UNTENABLE',
                 'ОСВЕДОМЛЕННЫЙ/В КУРСЕ/ЗНАЮЩИЙ':'AWARE','КЛЮКВА':'CRANBERRY','ПЛЕСЕНЬ':'FUNGUS','ПОДВЕРГАТЬ РИСКУ':'TO JEOPARDIZE',
-                'НАДЛЕЖАЩЕЕ ФИНАНСИРОВАНИЕ':'PROPER FUNDING','ПОЛУЧИЛОС/СРАБОТАЛО':'WORKED OUT'}
+                'НАДЛЕЖАЩЕЕ ФИНАНСИРОВАНИЕ':'PROPER FUNDING','ПОЛУЧИЛОС/СРАБОТАЛО':'WORKED OUT',}
     print('Слов в словаре:',len(vocabulary))
     pickle.dump(vocabulary,file)
     file.close()

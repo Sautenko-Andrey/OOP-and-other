@@ -65,7 +65,29 @@ def main():
                 'ПОЗВОЛЯТЬ СЕБЕ':'TO AFFORD','КОРОЛЕВСКИЙ/ЦАРСКИЙ':'ROYAL','ПООБЩАТЬСЯ':'TO MINGLE','РАЗДОБЫТЬ':'TO RUSTLE UP',
                 'ПРОКОЛОТЬ':'TO IMPALE','ВТОРЖЕНИЕ':'INVASION','ВЫСКОЧКА':'JUMPED-UP','НАСТАИВАТЬ':'TO INSIST',
                 'КУЧЕРЯВЫЙ':'CURLY','ШАХТА':'SHAFT','КРОМЕШНАЯ ТЬМА':'PITCH BLACK','ШИНА/ПОКРЫШКА':'TYRE','РУЛЬ/КОЛЕСО':'WHEEL',
-                'НЕУДОБСТВО/НЕПРИЯТНОСТЬ':'NUISANCE','МЕТКО':'APTLY',}
+                'НЕУДОБСТВО/НЕПРИЯТНОСТЬ':'NUISANCE','МЕТКО':'APTLY','ЖИЗНЕННО ВАЖНЫЙ':'VITAL','ПЕРЕХЕТРИТЬ':'TO OUTWIT',
+                'ЗЛОДЕЙ':'VILLAIN','ЦИКЛ':'LOOP','ЭКЗЕМПЛЯР КЛАССА':'INSTANCE OFF A CLASS','СХВАТКА':'SCRUM',
+                'ОРАТЬ':'TO YELL','МНЕ ТОЖЕ':'ME EITHER','КОНФИСКОВАТЬ/ИЗЫМАТЬ':'TO SEIZE','МГНОВЕННО':'MOMENTARILY',
+                'ПРЕЛЮДИЯ':'FOREPLAY','ВОСХИЩЕНИЕ':'ADMIRATION','ПОМЕСТЬЕ':'ESTATE','ДОВЕРЕННОЕ ЛИЦО':'TRUSTEE',
+                'ЛЕКАРСТВО ПО РЕЦЕПТУ':'PRESCRIPTION MEDICATION','СОРТИРОВКА СЛИЯНИЕМ':'MERGE SORT',
+                'ПОИСК В ШИРИНУ':'BREADTH FIRST SEARCH','СОРТИРОВКА ПУЗЫРЬКОМ':'BUBBLE SORT','МАЛИНА':'RASPBERRY',
+                'ЭМОЦИОНАЛЬНЫЕ ВСПЛЕСКИ':'EMOTIONAL OUTBURSTS','ВИНИТЬ':'TO BLAME','САМЫЙ СМЕЛЫЙ':'BOLDEST',
+                'НЕУЛОВИМЫЙ':'ELUSIVE','СРАЗУ ЖЕ':'RIGHT AWAY','НЕТЕРПИТСЯ':'CHOMPING AT THE BIT','ДЕРЗКИЙ':'BRASH',
+                'МАТРАС':'FUTON','БОСОЙ':'BAREFOOT','ТОЧНЫЙ/ЧЕТКИЙ':'PRECISE','ДРОЖЬ/ТРЕПЕТ':'TINGLE','УГОЛЬ':'COAL',
+                'НАЧИНКИ':'TOPPINGS','СТОНАТЬ/КРЯХТЕТЬ':'TO GROAN','ЛИМУЗИН':'LIMO','ЭВАКУАТОР':'TOW TRUCK',
+                'СНЕГОУБОРОЧНАЯ МАШИНА':'SNOWPLOW','СЛУГА':'VALET','ВРОЖДЕННЫЙ/ПРИРОДНЫЙ':'INNATE','ПОДАВЛЯТЬ':'TO SQUASH',
+                'СИГАРЕТКУ МОЖНО?':'CAN I BUM A SMOKE?','ЛЕГКИЕ':'LUNGS','ФРИЦ':'KRAUT','НЕНОРМАТИВНАЯ ЛЕКСИКА':'PROFANITY',
+                'КЛИЧКА':'MONIKER','МАКАРОННИК':'GREASEBALL','РОСКОШНЫЙ':'RITZY','ЛАДИТЬ\УЖИВАТЬСЯ':'GET ALONG',
+                'ЖИР':'GREASE','СМЕТЬ':'TO DARE','МОГУЧИЙ':'MIGHTY','НЕБОЛЬШОЙ ПЕРЕРЫВ':'BRIEF INTERMISSION',
+                'РАВНИНА':'PLAIN','ОСТРЫЙ':'SHARP','ДАВАТЬ ВЗЯТКУ':'TO BRIBE','ФАЛЬШИВЫЙ/ПОДДЕЛЬНЫЙ':'PHONY',
+                'БАКЛАЖАН':'EGGPLANT','УСТРАИВАТЬ/ПРИСТРАИВАТЬ':'TO ARRANGE','НАСИЛИЕ/ЖЕСТОКОСТЬ':'VIOLENCE',
+                'ЧУВСТВО СОБСТВЕННОГО ДОСТОИНСТВА':'DIGNITY','ПРЕОБЛАДАТЬ/ДОМИНИРОВАТЬ':'TO PREVAIL','ГУБЕРНАТОР':'GOVERNOR',
+                'ПРИТОРМОЗИ!':'PULL OVER!','СТРАДАТЬ':'TO SUFFER','ПОЧТОВАЯ МАРКА':'STAMP','КАШЛЯТЬ':'TO COUGH',
+                'ПЕРЕМИРИЕ':'TRUCE','ПАЧКА(ПР.НАЛИЧНЫХ)':'WAD','СОКРОВИЩЕ':'TREASURE','БОЧКА':'BARREL','УТЕШЕНИЕ':'CONSOLATION',
+                'ВЗЛОМ':'BREACH','ОРДЕР':'WARRANT','ПРЕДУСМОТРИТЕЛЬНОСТЬ':'PRUDENCE','НАРАЩИВАТЬ':'TO RAMP UP',
+                'ПРИГОРОДНЫЙ':'COMMUTER','ПРЕНЕБРЕЖИТЕЛЬНЫЙ':'DISMISSIVE','СИБИРСКАЯ ЯЗВА':'ANTHRAX','ЗАГРУЖАТЬ/ЗАКАЧИВАТЬ':'TO UPLOAD',
+                'ИЗБАВИТЬСЯ':'TO GET RID','ОСУЩЕСТВЛЯТЬ/РЕАЛИЗОВЫВАТЬ':'TO IMPLEMENT','ПЛЯТЕЖ':'PAYMENT',
+                'ИПОТЕКА':'MORTGAGE','ВЗЛАМЫВАТЬ':'TO CRACK','ВРУЧНУЮ':'MANUALLY',}
 
     vocabulary_update={value:key for key, value in vocabulary.items()}
 
