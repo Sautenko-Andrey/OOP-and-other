@@ -87,7 +87,8 @@ def main():
                 'ВЗЛОМ':'BREACH','ОРДЕР':'WARRANT','ПРЕДУСМОТРИТЕЛЬНОСТЬ':'PRUDENCE','НАРАЩИВАТЬ':'TO RAMP UP',
                 'ПРИГОРОДНЫЙ':'COMMUTER','ПРЕНЕБРЕЖИТЕЛЬНЫЙ':'DISMISSIVE','СИБИРСКАЯ ЯЗВА':'ANTHRAX','ЗАГРУЖАТЬ/ЗАКАЧИВАТЬ':'TO UPLOAD',
                 'ИЗБАВИТЬСЯ':'TO GET RID','ОСУЩЕСТВЛЯТЬ/РЕАЛИЗОВЫВАТЬ':'TO IMPLEMENT','ПЛЯТЕЖ':'PAYMENT',
-                'ИПОТЕКА':'MORTGAGE','ВЗЛАМЫВАТЬ':'TO CRACK','ВРУЧНУЮ':'MANUALLY','ПРОТЯНУТЬ РУКУ ПОМОЩИ':'LEND A HAND',}
+                'ИПОТЕКА':'MORTGAGE','ВЗЛАМЫВАТЬ':'TO CRACK','ВРУЧНУЮ':'MANUALLY','ПРОТЯНУТЬ РУКУ ПОМОЩИ':'LEND A HAND',
+                'ИЗМЕНЯЕМЫЕ ТИПЫ ДАННЫХ':'MUTABLE DATA TYPES','НЕИЗМЕНЯЕМЫЕ ТИПЫ ДАННЫХ':'IMMUTABLE DATA TYPES',}
 
     print('Слов в словаре:', len(vocabulary))
     pickle.dump(vocabulary, file)
