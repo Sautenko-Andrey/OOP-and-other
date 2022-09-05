@@ -88,7 +88,8 @@ def main():
                 'ПРИГОРОДНЫЙ':'COMMUTER','ПРЕНЕБРЕЖИТЕЛЬНЫЙ':'DISMISSIVE','СИБИРСКАЯ ЯЗВА':'ANTHRAX','ЗАГРУЖАТЬ/ЗАКАЧИВАТЬ':'TO UPLOAD',
                 'ИЗБАВИТЬСЯ':'TO GET RID','ОСУЩЕСТВЛЯТЬ/РЕАЛИЗОВЫВАТЬ':'TO IMPLEMENT','ПЛЯТЕЖ':'PAYMENT',
                 'ИПОТЕКА':'MORTGAGE','ВЗЛАМЫВАТЬ':'TO CRACK','ВРУЧНУЮ':'MANUALLY','ПРОТЯНУТЬ РУКУ ПОМОЩИ':'LEND A HAND',
-                'ИЗМЕНЯЕМЫЕ ТИПЫ ДАННЫХ':'MUTABLE DATA TYPES','НЕИЗМЕНЯЕМЫЕ ТИПЫ ДАННЫХ':'IMMUTABLE DATA TYPES',}
+                'ИЗМЕНЯЕМЫЕ ТИПЫ ДАННЫХ':'MUTABLE DATA TYPES','НЕИЗМЕНЯЕМЫЕ ТИПЫ ДАННЫХ':'IMMUTABLE DATA TYPES',
+                'ОБРАБОТКА ИСКЛЮЧЕНИЙ':'EXCEPTION HANDLING',}
 
     print('Слов в словаре:', len(vocabulary))
     pickle.dump(vocabulary, file)
