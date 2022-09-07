@@ -90,7 +90,10 @@ def main():
                 'ИПОТЕКА':'MORTGAGE','ВЗЛАМЫВАТЬ':'TO CRACK','ВРУЧНУЮ':'MANUALLY','ПРОТЯНУТЬ РУКУ ПОМОЩИ':'LEND A HAND',
                 'ИЗМЕНЯЕМЫЕ ТИПЫ ДАННЫХ':'MUTABLE DATA TYPES','НЕИЗМЕНЯЕМЫЕ ТИПЫ ДАННЫХ':'IMMUTABLE DATA TYPES',
                 'ОБРАБОТКА ИСКЛЮЧЕНИЙ':'EXCEPTION HANDLING','НАСЛЕДОВАНИЕ КЛАССОВ':'CLASS INHERITANCE',
-                'ИНКАПСУЛЯЦИЯ':'ENCAPSULATION','ООП':'OBJECT-ORIENTED PROGRAMMING','СИСТЕМА КОНТРОЛЯ ВЕРСИЙ':'VERSION CONTROL SYSTEM',}
+                'ИНКАПСУЛЯЦИЯ':'ENCAPSULATION','ООП':'OBJECT-ORIENTED PROGRAMMING','СИСТЕМА КОНТРОЛЯ ВЕРСИЙ':'VERSION CONTROL SYSTEM',
+                'ВЕТКА': 'BRANCH', 'УДАЛЕННЫЙ': 'REMOTE', 'ОГРАЮЛЕНИЕ': 'HEIST', 'МЕСТЬ': 'REVENGE', 'КЛАПАН': 'VALVE',
+                'РАЯДОМ С ': 'ALONGSIDE', 'ПЕРЕКЛЮЧИТЬ/ПЕРЕЙТИ': 'TO SWITCH', 'УПРЯМЫЙ': 'STUBBORN',
+                }
 
     vocabulary_update={value:key for key, value in vocabulary.items()}
 
