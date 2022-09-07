@@ -91,7 +91,7 @@ def main():
                 'ИЗМЕНЯЕМЫЕ ТИПЫ ДАННЫХ':'MUTABLE DATA TYPES','НЕИЗМЕНЯЕМЫЕ ТИПЫ ДАННЫХ':'IMMUTABLE DATA TYPES',
                 'ОБРАБОТКА ИСКЛЮЧЕНИЙ':'EXCEPTION HANDLING','НАСЛЕДОВАНИЕ КЛАССОВ':'CLASS INHERITANCE',
                 'ИНКАПСУЛЯЦИЯ':'ENCAPSULATION','ООП':'OBJECT-ORIENTED PROGRAMMING','СИСТЕМА КОНТРОЛЯ ВЕРСИЙ':'VERSION CONTROL SYSTEM',
-                'ВЕТКА':'BRANCH',}
+                'ВЕТКА':'BRANCH','УДАЛЕННЫЙ':'REMOTE',}
 
     print('Слов в словаре:', len(vocabulary))
     pickle.dump(vocabulary, file)
