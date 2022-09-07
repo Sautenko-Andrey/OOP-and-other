@@ -92,7 +92,8 @@ def main():
                 'ОБРАБОТКА ИСКЛЮЧЕНИЙ':'EXCEPTION HANDLING','НАСЛЕДОВАНИЕ КЛАССОВ':'CLASS INHERITANCE',
                 'ИНКАПСУЛЯЦИЯ':'ENCAPSULATION','ООП':'OBJECT-ORIENTED PROGRAMMING','СИСТЕМА КОНТРОЛЯ ВЕРСИЙ':'VERSION CONTROL SYSTEM',
                 'ВЕТКА':'BRANCH','УДАЛЕННЫЙ':'REMOTE','ОГРАЮЛЕНИЕ':'HEIST','МЕСТЬ':'REVENGE','КЛАПАН':'VALVE',
-                'РАЯДОМ С ':'ALONGSIDE','ПЕРЕКЛЮЧИТЬ/ПЕРЕЙТИ':'TO SWITCH','УПРЯМЫЙ':'STUBBORN',}
+                'РАЯДОМ С ':'ALONGSIDE','ПЕРЕКЛЮЧИТЬ/ПЕРЕЙТИ':'TO SWITCH','УПРЯМЫЙ':'STUBBORN','РАЙОН':'BOROUGH',
+                'КРЫЛЬЦО':'STOOP',}
 
     print('Слов в словаре:', len(vocabulary))
     pickle.dump(vocabulary, file)

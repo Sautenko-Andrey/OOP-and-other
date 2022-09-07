@@ -86,12 +86,12 @@ def main():
                 'ПЕРЕМИРИЕ':'TRUCE','ПАЧКА(ПР.НАЛИЧНЫХ)':'WAD','СОКРОВИЩЕ':'TREASURE','БОЧКА':'BARREL','УТЕШЕНИЕ':'CONSOLATION',
                 'ВЗЛОМ':'BREACH','ОРДЕР':'WARRANT','ПРЕДУСМОТРИТЕЛЬНОСТЬ':'PRUDENCE','НАРАЩИВАТЬ':'TO RAMP UP',
                 'ПРИГОРОДНЫЙ':'COMMUTER','ПРЕНЕБРЕЖИТЕЛЬНЫЙ':'DISMISSIVE','СИБИРСКАЯ ЯЗВА':'ANTHRAX','ЗАГРУЖАТЬ/ЗАКАЧИВАТЬ':'TO UPLOAD',
-                'ИЗБАВИТЬСЯ':'TO GET RID','ОСУЩЕСТВЛЯТЬ/РЕАЛИЗОВЫВАТЬ':'TO IMPLEMENT','ПЛЯТЕЖ':'PAYMENT',
+                'ИЗБАВИТЬСЯ':'TO GET RID','ОСУЩЕСТВЛЯТЬ/РЕАЛИЗОВЫВАТЬ':'TO IMPLEMENT','ПЛАТЕЖ':'PAYMENT',
                 'ИПОТЕКА':'MORTGAGE','ВЗЛАМЫВАТЬ':'TO CRACK','ВРУЧНУЮ':'MANUALLY','ПРОТЯНУТЬ РУКУ ПОМОЩИ':'LEND A HAND',
                 'ИЗМЕНЯЕМЫЕ ТИПЫ ДАННЫХ':'MUTABLE DATA TYPES','НЕИЗМЕНЯЕМЫЕ ТИПЫ ДАННЫХ':'IMMUTABLE DATA TYPES',
                 'ОБРАБОТКА ИСКЛЮЧЕНИЙ':'EXCEPTION HANDLING','НАСЛЕДОВАНИЕ КЛАССОВ':'CLASS INHERITANCE',
                 'ИНКАПСУЛЯЦИЯ':'ENCAPSULATION','ООП':'OBJECT-ORIENTED PROGRAMMING','СИСТЕМА КОНТРОЛЯ ВЕРСИЙ':'VERSION CONTROL SYSTEM',
-                'ВЕТКА': 'BRANCH', 'УДАЛЕННЫЙ': 'REMOTE', 'ОГРАЮЛЕНИЕ': 'HEIST', 'МЕСТЬ': 'REVENGE', 'КЛАПАН': 'VALVE',
+                'ВЕТКА': 'BRANCH', 'УДАЛЕННЫЙ': 'REMOTE', 'ОГРАБЛЕНИЕ': 'HEIST', 'МЕСТЬ': 'REVENGE', 'КЛАПАН': 'VALVE',
                 'РАЯДОМ С ': 'ALONGSIDE', 'ПЕРЕКЛЮЧИТЬ/ПЕРЕЙТИ': 'TO SWITCH', 'УПРЯМЫЙ': 'STUBBORN',
                 }
 

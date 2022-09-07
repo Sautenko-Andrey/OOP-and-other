@@ -7,8 +7,8 @@ def main():
     :return: None
     """
     #прочтем данные из файла:
-    #file=open('D:\Фильмы\my_vocabulary2.dat', 'rb')   #тест будет с русского на английский
-    file = open('D:\Фильмы\my_vocabulary3.dat', 'rb')   #тест будет с английского на русский
+    file=open('D:\Фильмы\my_vocabulary2.dat', 'rb')   #тест будет с русского на английский
+    #file = open('D:\Фильмы\my_vocabulary3.dat', 'rb')   #тест будет с английского на русский
     end_of_file = False
     while not end_of_file:
         try:
