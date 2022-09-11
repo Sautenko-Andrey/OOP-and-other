@@ -187,36 +187,101 @@ class Algoritms:
 
         return 'We didn\'t find Shoker....'
 
-    def bubble_sort(self,array):
-        count_items=len(array)
-        count_iterations=count_items-1
+    def bubble_sort(self, array):
+        count_items = len(array)
+        count_iterations = count_items - 1
 
-        for iteration in range(0,count_iterations):
-            for dig in range(0,count_iterations-iteration):
-                if array[dig]>array[dig+1]:
-                    array[dig],array[dig+1]=array[dig+1],array[dig]
+        for iteration in range(0, count_iterations):
+            for dig in range(0, count_iterations - iteration):
+                if array[dig] > array[dig + 1]:
+                    array[dig], array[dig + 1] = array[dig + 1], array[dig]
 
         return array
 
-    def merge_sort(self,array1,array2):
-        mutual_array=[]
+    def merge_sort(self, array1, array2):
+        mutual_array = []
 
-        length_1=len(array1)
-        length_2=len(array2)
+        length_1 = len(array1)
+        length_2 = len(array2)
 
-        arrow1=0
-        arrow2=0
+        arrow1 = 0
+        arrow2 = 0
 
-        while length_1>arrow1 and length_2>arrow2:
-            if array1[arrow1]<array2[arrow2]:
+        while length_1 > arrow1 and length_2 > arrow2:
+            if array1[arrow1] < array2[arrow2]:
                 mutual_array.append(array1[arrow1])
-                arrow1+=1
+                arrow1 += 1
             else:
                 mutual_array.append(array2[arrow2])
-                arrow2+=1
+                arrow2 += 1
 
-        mutual_array+=array1[arrow1:]+array2[arrow2:]
+        mutual_array += array1[arrow1:] + array2[arrow2:]
 
         return mutual_array
+
+
+class Contacts:
+    __slots__ = ('name','phone')
+
+    LETTERS = 'qwertyuiopasdfghjklzxcvbnm '
+
+    SYMBOLS ='1234567890-'
+
+    @classmethod
+    def __check_name(cls, name):
+        if not isinstance(name, str):
+            raise TypeError('Argument must be string!')
+        for every_letter in name:
+            if not every_letter in cls.LETTERS:
+                raise AttributeError(f'Sorry, but you have tried'
+                                     f' to use unsupportable symbol in name <{every_letter}>')
+        name = name.split()
+        if len(name) != 2:
+            raise AttributeError('Please fill name and last name.')
+
+    def __new__(cls, *args, **kwargs):
+        print(f'Creating new instance of a class {cls}')
+        return super().__new__(cls)
+
+    def __init__(self, name,phone):
+        self.__check_name(name)
+        self.name = name
+        self.phone=phone
+
+    def __str__(self):
+        return f'{self.__class__} --- {self.name}'
+
+    def get_info(self):
+        return f'{self.name} {self.phone}'
+
+
+
+class MyFriend(Contacts):
+
+    @classmethod
+    def __check_adres(cls,adres):
+        if not isinstance(adres,str):
+            raise TypeError('Adres must be string!')
+        for letter in adres:
+            if not letter in cls.LETTERS or not letter in cls.SYMBOLS:
+                raise AttributeError(f'Unknown symbol ---<{letter}>')
+
+    def __init__(self,name,phone,adres):
+        self.__check_adres(adres)
+        super().__init__(name,phone)
+        self.__adres=adres
+
+
+    def show_friend_info(self):
+        print(f'Name:{self.name}\nPhone:{self.phone}\nAdres:{self.__adres}')
+
+    @property
+    def adres(self):
+        return self.__adres
+
+    @adres.setter
+    def adres(self,adres):
+        self.__check_adres(adres)
+        self.__adres=adres
 
 
