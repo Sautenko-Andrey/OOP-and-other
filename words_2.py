@@ -1,4 +1,3 @@
-#                 ЧЕРНОВОЙ ВАРИАНТ ПРОГРАММЫ ДЛЯ ПОВТОРЕНИЯ СЛОВ НА АНГЛИЙСКОМ ЯЗЫКЕ!
 import pickle
 def main():
     """
@@ -6,7 +5,7 @@ def main():
     :return: None
     """
     #создадим словарь,куда будем сохранять слово/перевод и запишем в файл.
-    file=open('D:\Фильмы\my_vocabulary.dat', 'wb')
+    file=open('/home/andrey/Studying/vocabulary/my_vocabulary.dat', 'wb')
     vocabulary={'ОБОРУДОВАНИЕ':'EQUIPMENT',
                 'НЕДЕЙСТВИТЕЛЬНОЕ':'INVALIDATE','КОНВЕРТ':'ENVELOPE','ПРЕСНЫЙ':'BLAND',
                 'СОБСТВЕННОСТЬ':'PROPERTIES','КИСЛЫЙ':'SOUR','ЭКСПОНАТ':'EXHIBIT',

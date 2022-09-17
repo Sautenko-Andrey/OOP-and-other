@@ -6,7 +6,7 @@ def main():
     :return: None
     """
     #создадим словарь,куда будем сохранять слово/перевод и запишем в файл.
-    file=open('D:\Фильмы\my_vocabulary3.dat', 'wb')
+    file=open('/home/andrey/Studying/my_vocabulary3.dat', 'wb')
     vocabulary={'ШТУКИ/ТЫСЯЧИ/ГРАНД':'GRAND','СТАВКА/КУРС/КОЕФИЦИЕННТ':'RATE','УСИЛИТЬ/АКТИВИЗИРОВАТЬ':'TO STEP UP',
                 'ВРАЖДЕБНОСТЬ':'HOSTILITY','ХАМСТВО':'RUDENESS','ВЯЛЫЙ':'FLACCID','ВЫПЕЧКА':'PASTRY',
                 'ТЫ РАЗЫГРЫВАЕШЬ МЕНЯ?':'ARE YOU SHITTING ME?','ПРЯМАЯ ЗАВИСИМОСТЬ':'LINEAR CORRELATION',
@@ -92,7 +92,8 @@ def main():
                 'ОБРАБОТКА ИСКЛЮЧЕНИЙ':'EXCEPTION HANDLING','НАСЛЕДОВАНИЕ КЛАССОВ':'CLASS INHERITANCE',
                 'ИНКАПСУЛЯЦИЯ':'ENCAPSULATION','ООП':'OBJECT-ORIENTED PROGRAMMING','СИСТЕМА КОНТРОЛЯ ВЕРСИЙ':'VERSION CONTROL SYSTEM',
                 'ВЕТКА': 'BRANCH', 'УДАЛЕННЫЙ': 'REMOTE', 'ОГРАБЛЕНИЕ': 'HEIST', 'МЕСТЬ': 'REVENGE', 'КЛАПАН': 'VALVE',
-                'РАЯДОМ С ': 'ALONGSIDE', 'ПЕРЕКЛЮЧИТЬ/ПЕРЕЙТИ': 'TO SWITCH', 'УПРЯМЫЙ': 'STUBBORN',
+                'РАЯДОМ С ': 'ALONGSIDE', 'ПЕРЕКЛЮЧИТЬ/ПЕРЕЙТИ': 'TO SWITCH', 'УПРЯМЫЙ': 'STUBBORN','РАЙОН':'BOROUGH',
+                'КРЫЛЬЦО':'STOOP','НАЗЛО':'FOR SPITE','КАРТЕЖНИК/АЗАРТНЫЙ ИГРОК':'GAMBLER',
                 }
 
     vocabulary_update={value:key for key, value in vocabulary.items()}

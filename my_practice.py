@@ -221,11 +221,11 @@ class Algoritms:
 
 
 class Contacts:
-    __slots__ = ('name','phone')
+    __slots__ = ('name', 'phone')
 
     LETTERS = 'qwertyuiopasdfghjklzxcvbnm '
 
-    SYMBOLS ='1234567890-'
+    SYMBOLS = '1234567890-'
 
     @classmethod
     def __check_name(cls, name):
@@ -243,10 +243,10 @@ class Contacts:
         print(f'Creating new instance of a class {cls}')
         return super().__new__(cls)
 
-    def __init__(self, name,phone):
+    def __init__(self, name, phone):
         self.__check_name(name)
         self.name = name
-        self.phone=phone
+        self.phone = phone
 
     def __str__(self):
         return f'{self.__class__} --- {self.name}'
@@ -255,22 +255,20 @@ class Contacts:
         return f'{self.name} {self.phone}'
 
 
-
 class MyFriend(Contacts):
 
     @classmethod
-    def __check_adres(cls,adres):
-        if not isinstance(adres,str):
+    def __check_adres(cls, adres):
+        if not isinstance(adres, str):
             raise TypeError('Adres must be string!')
         for letter in adres:
             if not letter in cls.LETTERS or not letter in cls.SYMBOLS:
                 raise AttributeError(f'Unknown symbol ---<{letter}>')
 
-    def __init__(self,name,phone,adres):
+    def __init__(self, name, phone, adres):
         self.__check_adres(adres)
-        super().__init__(name,phone)
-        self.__adres=adres
-
+        super().__init__(name, phone)
+        self.__adres = adres
 
     def show_friend_info(self):
         print(f'Name:{self.name}\nPhone:{self.phone}\nAdres:{self.__adres}')
@@ -280,8 +278,144 @@ class MyFriend(Contacts):
         return self.__adres
 
     @adres.setter
-    def adres(self,adres):
+    def adres(self, adres):
         self.__check_adres(adres)
-        self.__adres=adres
+        self.__adres = adres
+
+
+class MyAlgoritms:
+    def __init__(self, algoritm):
+        self.algoritm = algoritm
+
+    def binary_search(self, array, digit):
+        first_index = 0
+        last_index = len(array) - 1
+
+        while first_index <= last_index:
+            guess_index = (first_index + last_index) // 2
+            guess = array[guess_index]
+
+            if guess == digit:
+                return f'Your digit\'s index is <{guess_index}>'
+
+            elif guess > digit:
+                last_index = guess_index - 1
+
+            elif guess < digit:
+                first_index = guess_index + 1
+
+        return f'We didn\'t find your digit here!'
+
+    def quick_sort(self, array):
+        if len(array) < 2:
+            return array
+
+        base_index = len(array) // 2
+        base_item = array[base_index]
+
+        low = [x for x in array[:base_index] if x < base_item] \
+              + [x for x in array[base_index + 1:] if x < base_item]
+        high = [x for x in array[:base_index] if x > base_item] + [x for x in array[base_index + 1:] if x > base_item]
+
+        return self.quick_sort(low) + [base_item] + self.quick_sort(high)
+
+    def __find_name(self, name):
+        if not isinstance(name, str):
+            raise TypeError('Argument must be string!')
+        if name[0] == 'S' and name[-1] == 'r':
+            return name
+
+    def breadth_first_search(self, diction, key):
+        turn = deque()
+        turn += diction[key]
+        checked = []
+
+        while turn:
+            dude = turn.popleft()
+            if not dude in checked:
+                if self.__find_name(dude):
+                    return f'We found fucking dude! it\'s {dude}!!!'
+                else:
+                    checked.append(dude)
+                    turn += diction[dude]
+
+        return 'We didn\'t find dude!'
+
+    def bubble_sort(self, array):
+        count_items = len(array)
+        count_iterations = count_items - 1
+
+        for iteration in range(0, count_iterations):
+            for dig in range(0, count_iterations - iteration):
+                if array[dig] > array[dig + 1]:
+                    array[dig], array[dig + 1] = array[dig + 1], array[dig]
+
+        return array
+
+    def merge_sort(self, list1, list2):
+        mutual_list = []
+
+        index_1 = 0
+        index_2 = 0
+
+        length_1 = len(list1)
+        length_2 = len(list2)
+
+        while length_1 > index_1 and length_2 > index_2:
+            if list1[index_1] < list2[index_2]:
+                mutual_list.append(list1[index_1])
+                index_1 += 1
+            else:
+                mutual_list.append(list2[index_2])
+                index_2 += 1
+
+        mutual_list += list1[index_1:] + list2[index_2:]
+
+        return mutual_list
+
+    def string_methods_list(self, text='i love beach volley'):
+        first = text.upper()
+        second = text.lower()
+        third = text.find('i')
+        fourth = text.rfind('l')
+        fifth = text.index('b')
+        sixth = text.strip()
+        seventh = text.rjust(25, '*')
+        eigth = text.ljust(25, '*')
+        nineth = text.rstrip()
+        tenth = text.lstrip()
+        eleventh = text.isalpha()
+        twelvth = text.isdigit()
+        thirtheenth = text.count('o')
+        fourtheenth = text.replace('i', 'I')
+        fifteenth = text.join('***')
+        sixteenth = text.split()
+        print(text)
+    def list_methods(self):
+        array=[1,2,3,4,5]
+        first=array.append(67)
+        second=array.insert(3,100)
+        third=array.pop(4)
+        fourth=array.remove(1)
+        fifth=array.copy()
+        sixth=array.clear()
+        seventh=array.sort()
+        eighth=array.count(100)
+        nineth=array.reverse()
+        # tenth=array.index(1)
+        print(array)
+
+    def dict_methods(self):
+        my_dict={'person':'Chaus','phone':'0502365478'}
+        first=dict.fromkeys([1,2,3,4,5],'digs')
+        second=my_dict.copy()
+        third=my_dict.clear()
+        fourth=my_dict.pop('phone')
+        fifth=my_dict.popitem()
+        sixth=my_dict.setdefault('status','best')
+        seventh=my_dict.keys()
+        eigth=my_dict.values()
+        nineth=my_dict.items()
+        tenth=my_dict.get('person')
 
 
