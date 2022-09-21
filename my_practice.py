@@ -142,5 +142,32 @@ class MergeSort(Algoritms):
         return mutual_list
 
 
+class UtilityBill:
+
+    def __new__(cls, *args, **kwargs):
+        print('Welcome to utility calculator!')
+        return super().__new__(cls)
+
+    def bills(self):
+        gas = int(input('gas bill: '))
+        water = int(input('water bill: '))
+        electric = int(input('electric bill: '))
+        header = int(input('header bill: '))
+        total = gas + water + electric + header
+        return total
+
+    def __init__(self):
+        self.payment=self.bills()
+
+    def __add__(self, other):
+        if not isinstance(other,(int,UtilityBill)):
+            raise TypeError('Attribute must be int or instance of a class UtilityBill')
+        sc=other
+        if isinstance(other,UtilityBill):
+            sc =other.payment
+
+        return UtilityBill(self.payment+sc)
+
+
 
 
