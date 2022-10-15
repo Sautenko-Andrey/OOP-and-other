@@ -197,6 +197,16 @@ def main():
                   'БУКВАЛЬНО':'LITERALLY','УДОЧКА':'ROD','СПОРТИВНЫЙ КОММЕНТАТОР':'SPORTSCASTER',
                   'ГЛОТАТЬ':'TO SWALLOW','ХОТЯ, ЕСЛИ ЧЕСТНО':'THOUGH TO BE FAIR','ГИПСОКАРТОН':'DRYWALL',
                   'СЛАБЫЙ/ТУСКЛЫЙ':'FAINT','ПОДЛИЗЫВАТЬСЯ КО МНЕ':'TO SUCK UP TO ME',
+                  'МЕТАЛЛОЛОМ':'SCRAP','ГРЯЗЬ':'GUNK','РОЗЕТКА':'SOCKET','ДРАГОЦЕННЫЙ':'PRECIOUS',
+                  'ОТКРОЙ КАПОТ':'TO POP THE HOOD','ОБОРВАНЕЦ':'RAGAMUFFIN','ЛИШАТЬ ДЕВСТВЕННОСТИ':'TO DEFLOWER',
+                  'ЧЕРНАЯ ПОЛОСА/ТЯЖЕЛЫЙ ПЕРИОД':'ROUGH PATCH','МАЛЬЧИШНИК':'BACHELOR PARTY',
+                  'РУМЯНЫЕ ЩЕЧКИ':'RUDDY CHEEKS','ХИХИКАТЬ':'TO GIGGLE','СТРИНГИ':'THONG',
+                  'БОЛЬНИЧНЫЙ':'SICK LEAVE','ДЕРЗКИЙ/ПИКАНТНЫЙ':'SAUCY','ПАРИК':'WIG',
+                  'ДВОЙНИК':'IMPERSONATOR','ОТ ДВОЙКИ ДО':'DEUCE TO','МОЮЩЕЕ СРЕДСТВО':'DETERGENT',
+                  'ТИРАН':'TYRANT','РИФМА':'RHYME','ПУСКАТЬ СЛЮНИ':'TO SALIVATE','ЗАКОННО':'LAWFULLY',
+                  'ПОЧЕТНЫЙ ПРОФЕССОР':'EMERITUS','ХВАСТЛИВЫЙ':'BRAGGY','ФОНД/ФУНДАМЕНТ':'FOUNDATION',
+                  'СТУЛ/КАЛ':'STOOL','К СЧАСТЬЮ':'FORTUNATELY','КОНКУРИРОВАТЬ':'TO COMPETE','ОБОРОТЕНЬ':'WEREWOLF',
+                  'ДЛЯ УДОБСТВА':'FOR THE CONVENIENCE','УСТАРЕВШИЙ':'OBSOLETE','ОТВАЛИ ОТ МЕНЯ!':'GET OFF ME!',
                   }
 
     print('Слов в словаре:', len(vocabulary))
