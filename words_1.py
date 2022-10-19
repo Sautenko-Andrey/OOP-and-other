@@ -207,6 +207,23 @@ def main():
                   'ПОЧЕТНЫЙ ПРОФЕССОР':'EMERITUS','ХВАСТЛИВЫЙ':'BRAGGY','ФОНД/ФУНДАМЕНТ':'FOUNDATION',
                   'СТУЛ/КАЛ':'STOOL','К СЧАСТЬЮ':'FORTUNATELY','КОНКУРИРОВАТЬ':'TO COMPETE','ОБОРОТЕНЬ':'WEREWOLF',
                   'ДЛЯ УДОБСТВА':'FOR THE CONVENIENCE','УСТАРЕВШИЙ':'OBSOLETE','ОТВАЛИ ОТ МЕНЯ!':'GET OFF ME!',
+                  'ВЫЧИТАТЬ':'TO SUBSTRACT','ДОКАЗАТЕЛЬСТВО':'PROOF','ИЗГНАНИЕ':'EXILE','УБРАТЬ/УНИЧТОЖИТЬ':'TO TAKE OUT',
+                  'ПРЯМОЙ ВОПРОС':'DIRECT QUESTION','СБЕРЕГАТЕЛЬНЫЙ СЧЕТ':'NUMBERED ACCOUNT','СЕТИ':'GRIDS',
+                  'СВАРЩИК':'WELDER','ЯКОРЬ':'ANCHOR','ЦЫГАН':'GIPSY','ШИШКА':'BUMP','ВСТРЕЧА':'APPOINTMENT',
+                  'ГНАТЬСЯ/ПРЕСЛЕДОВАТЬ':'TO CHASE','ЗАГВОЗДКА/ЗАМИНКА':'HITCH','НА ЮГ/ЮЖНОЕ НАПРАВЛЕНИЕ':'SOUTHBOUND',
+                  'ТОРМОЗИТЬ МЕНЯ':'TO SLOW ME DOWN','ЗАЛОГ':'COLLATERAL','БАЗОВЫЕ ЗНАНИЯ':'CORE KNOWLEDGE',
+                  'ИСКУСТВЕННЫЙ ИНТЕЛЕКТ':'ARTIFICIAL INTELLIGENCE','ЗНАМЕНИТОСТЬ':'CELEBRITY',
+                  'БЕШЕНСТВО':'RABIES','ИСКОРЕНИТЬ':'TO ERADICATE','ПОВОД':'CAUSE','КРЕСТЯНИН/ДЕРЕВЕНЩИНА':'PEASANT',
+                  'ЗАМКНУТЫЙ КРУГ':'VICIOUS CIRCLE','НАТИРАТЬСЯ/РАЗДРАЖАТЬСЯ (КОЖА)':'TO CHAFE',
+                  'КОГОТЬ':'CLAW','КЛОЧЬЯ/КУСКИ':'SHREDS','КАРТОШКА ФРИ':'FRENCH FRIES','РЕДАКТИРОВАТЬ':'TO EDIT',
+                  'РЕКЛАМА':'ADS','БОЛТАТЬСЯ/СВИСАТЬ':'TO DANGLE','ПОДГЛЯДЫВАТЬ':'TO PEEP','АРАХИС':'PEANUT',
+                  'НЕДУГ':'AFFLICTION','БЕЗГРАМОТНЫЙ':'ILLITERATE','НЫТИК':'DOWNER','СДЕРЖАННЫЙ/ОСТОРОЖНЫЙ':'DISCREET',
+                  'ПОЗОР':'INFAMY','НЕ ДАВИ НА МЕНЯ!':'DO NOT RUSH ME!','СКОРБИТЬ':'TO GRIEVE','ЕНОТ':'RACOON',
+                  'БЕСКОНЕЧНОСТЬ':'INFINITY','КАПИТАЛЬНЫЙ РЕМОНТ/ПЕРЕСТРОЙКА':'OVERHAUL','СТАРУХА С КОСОЙ':'GRIM REAPER',
+                  'БОЛЬШИЕ УСПЕХИ':'GREAT STRIDES','ХАМ/БОЛВАН':'TWERP','ПОЧИТАТЬ/ЧТИТЬ':'TO REVERE','ЧЕРНИЛА':'INK',
+                  'ГУРМАН':'GOURMET','ОТТАЛКИВАЮЩИЙ/ОТВРАТИТЕЛЬНЫЙ':'REPULSIVE','СУТЬ/СУЩНОСТЬ':'ESSENCE',
+                  'НЕСЧАСТНЫЙ':'MISERABLE','МАКЕТЫ':'MOCK-UPS','ПИЯВКА':'LEECH','ИЗОБРЕТЕНИЕ':'INVENTION',
+
                   }
 
     print('Слов в словаре:', len(vocabulary))
