@@ -8,8 +8,8 @@ def main():
     """
     #прочтем данные из файла:
     #file = open('/home/andrey/Studying/vocabulary/my_vocabulary.dat', 'rb')
-    file=open('/home/andrey/Studying/vocabulary/my_vocabulary2.dat', 'rb')   #тест будет с русского на английский
-    #file = open('/home/andrey/Studying/my_vocabulary3.dat', 'rb')   #тест будет с английского на русский
+    #file=open('/home/andrey/Studying/vocabulary/my_vocabulary2.dat', 'rb')   #тест будет с русского на английский
+    file = open('/home/andrey/Studying/my_vocabulary3.dat', 'rb')   #тест будет с английского на русский
     end_of_file = False
     while not end_of_file:
         try:
@@ -19,21 +19,20 @@ def main():
     file.close()
     test(vocabulary)
 
-
 def test(some_vocabulary):
     right_answers=0
     kol_vopros=0
     try:
         for count in range(len(some_vocabulary)):
-            key,value=some_vocabulary.popitem()
-            print(key)
+            res=list(some_vocabulary.items())
+            print(choice(res[0]))
             user_answer=input('Напиши перевод слова: ').upper()
             kol_vopros+=1
-            if user_answer==value:
+            if user_answer==choice(res[1]):
                 print('Правильно,молодец,Андрей:)')
                 right_answers+=1
             else:
-                print('ОШИБКА!!! Правильный ответ:',value)
+                print('ОШИБКА!!! Правильный ответ:',choice(res[1]))
     except ValueError as err:
         print(err)
     except KeyError as err2:

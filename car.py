@@ -1,23 +1,10 @@
-class Car:
-    def __init__(self, make, model, year):
-        self.__make = make
-        self.__model = model
-        self.__year = year
+from random import choice,randint
 
-    def set_make(self, make):
-        self.__make = make
-
-    def set_model(self, model):
-        self.__model = model
-
-    def set_year(self, year):
-        self.__year = year
-
-    def get_make(self):
-        return self.__make
-
-    def get_model(self):
-        return self.__model
-
-    def get_year(self):
-        return self.__year
+vocabulary={'first':'perviy','second':'vtoroy','third':'tretiy'}
+# my_list=list(vocabulary.items())
+# print(my_list)
+# print('Слуйчано выбранное')
+# print(choice(my_list))
+for i in range(len(vocabulary)):
+    res=list(vocabulary.items())
+    print(choice(res[0]))
