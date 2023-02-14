@@ -1,0 +1,72 @@
+1676214102300	geckodriver	INFO	Listening on 127.0.0.1:37295
+1676214106686	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "--remote-debugging-port" "47703" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileIPsGnN"
+Gtk-Message: 17:01:47.631: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1676215401183	geckodriver	INFO	Listening on 127.0.0.1:44057
+1676215405936	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "--remote-debugging-port" "44847" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilegksaIK"
+Gtk-Message: 17:23:27.597: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1676215694838	geckodriver	INFO	Listening on 127.0.0.1:35639
+1676215695337	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "--remote-debugging-port" "46765" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileIUXAnh"
+Gtk-Message: 17:28:15.526: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1676215709751	geckodriver	INFO	Listening on 127.0.0.1:46853
+1676215709925	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "--remote-debugging-port" "43857" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileyElWgv"
+Gtk-Message: 17:28:30.116: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1676215831576	geckodriver	INFO	Listening on 127.0.0.1:36139
+1676215831745	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "--remote-debugging-port" "35863" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileBGK5w8"
+Gtk-Message: 17:30:31.907: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1676216820645	geckodriver	INFO	Listening on 127.0.0.1:39303
+1676216820838	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "46381" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile5yQ42W"
+*** You are running in headless mode.
+Gtk-Message: 17:47:01.015: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1676222549980	geckodriver	INFO	Listening on 127.0.0.1:33247
+1676222551392	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "49525" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledW9se9"
+Gtk-Message: 19:22:31.685: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1676222555798	Marionette	INFO	Marionette enabled
+1676222555804	Marionette	INFO	Listening on port 44287
+Read port: 44287
+WebDriver BiDi listening on ws://127.0.0.1:49525
+1676222556319	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledW9se9/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49525/devtools/browser/3acd17df-557e-4944-8498-14151a53f91b
+JavaScript error: https://shop.silpo.ua/js/app.cbca7510.js, line 193: ChunkLoadError: Loading chunk 2668 failed.
+(error: https://shop.silpo.ua/js/icon58.d0e9422c.chunk.js)
+1676222680189	Marionette	INFO	Stopped listening on port 44287
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1676223350141	geckodriver	INFO	Listening on 127.0.0.1:37365
+1676223351647	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "--remote-debugging-port" "48703" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileoDsHtX"
+Gtk-Message: 19:35:51.792: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1676223789316	geckodriver	INFO	Listening on 127.0.0.1:38375
+1676223789750	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "user-agent=HelloWorld:)" "--remote-debugging-port" "39409" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileERdXhf"
+Gtk-Message: 19:43:09.919: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.

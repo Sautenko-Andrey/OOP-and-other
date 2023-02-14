@@ -382,6 +382,11 @@ def main():
                   'ТРЮК': 'STUNT',
                   'НЕОТСЛЕЖИВАЕМЫЕ': 'UNTRACEABLE', 'ПАПОРОТНИК': 'FERN', 'ПОЛИЦЕЙСКИЙ УЧАСТОК': 'PRECINCT',
                   'ВОПИЮЩИЙ': 'BLATANT',
+                  'ЭЛЕГАНТНЫЙ КОД': 'SLEEK CODE', 'ПРОИЗОДИТЕЛЬНЫЙ КОД': 'PERFORMANT CODE',
+                  'НИЗКОЗАТРАТНЫЙ КОД': 'LOW-OVERHEAD CODE',
+                  'ФУНКЦИИ ВЫСШЕГО ПОРЯДКА': 'HIGHER ORDER FUNCTIONS', 'ДОЛЯ/АКЦИИ': 'EQUITY',
+                  'МАСТЕР НА ВСЕ РУКИ': 'JACK OF ALL TRADES','ПРОТОТИП':'PROTOTYPE','ТМИН':'CUMIN',
+                  'НАМАЗЫВАТЬ/РАЗМАЗЫВАТЬ':'TO SMEAR',
                   }
 
     print('Слов в словаре:', len(vocabulary))

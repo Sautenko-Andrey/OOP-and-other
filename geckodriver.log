@@ -1,0 +1,15 @@
+1674925081118	geckodriver	INFO	Listening on 127.0.0.1:57659
+1674925086783	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "--remote-debugging-port" "34419" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileWRthWV"
+Gtk-Message: 18:58:07.332: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674925691213	geckodriver	INFO	Listening on 127.0.0.1:60771
+1674925698031	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "--remote-debugging-port" "43751" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiled3bI4E"
+Gtk-Message: 19:08:18.793: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+[Parent 70639, IPC I/O Parent] WARNING: process 70772 exited on signal 9: file /build/firefox/parts/firefox/build/ipc/chromium/src/base/process_util_posix.cc:256
