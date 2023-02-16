@@ -20,7 +20,7 @@ options.add_argument(f'user-agent={useragent.random}')
 options.add_argument('--disable-blink-features=AutomationControlled')
 
 # для запуска сайта в фоновом режиме
-options.add_argument('--headless')
+#options.add_argument('--headless')
 
 # service
 serv = Service('/home/andrey/Python Projects/OOP-and-other/selenium_python/chrome_driver/chromedriver')
@@ -31,21 +31,18 @@ driver = webdriver.Chrome(
     service=serv
 )
 
-try:
-    print('Connecting to page.....')
-    driver.get('https://www.atbmarket.com/product/kapusta-1-gat')
-    #driver.get('https://shop.silpo.ua/product/banan-32485')
-    #driver.get('https://auchan.ua/sigarety-marlboro-20-sht-916786/')
-    #driver.get('https://www.tavriav.ua/product/70120/')
-    sleep(1)
-    print('Getting item\'s price....')
-    price=driver.find_element(By.CSS_SELECTOR,'[class="product-price__top"]')       # ATB
-    #price = driver.find_element(By.CSS_SELECTOR, '[class="current-integer"]')        #Silpo
-    #price = driver.find_element(By.CSS_SELECTOR, '[class="productDetails_price_actual__12u8E"]')   #Ashan
-    print(price.text)
+def get_data(url):
+    try:
+        #создаем объект браузера
 
-except Exception as ex:
-    print(ex)
-finally:
-    driver.close()
-    driver.quit()
+        driver = webdriver.Chrome(
+            options=options,
+            service=serv
+        )
+        driver.get(url=url)
+        sleep(5)
+    except Exception as ex:
+        print(ex)
+    finally:
+        driver.close()
+        driver.quit()
