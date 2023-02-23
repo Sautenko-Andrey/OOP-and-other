@@ -33,16 +33,16 @@ driver = webdriver.Chrome(
 
 try:
     print('Connecting to page.....')
-    driver.get('https://www.atbmarket.com/product/kapusta-1-gat')
+    driver.get('https://auchan.ua/ua/maslo-podsolnechnoe-schedrij-dar-rafinirovannoe-850-ml-934363/')
     #driver.get('https://shop.silpo.ua/product/banan-32485')
     #driver.get('https://auchan.ua/sigarety-marlboro-20-sht-916786/')
     #driver.get('https://www.tavriav.ua/product/70120/')
-    sleep(1)
+    # sleep(1)
     print('Getting item\'s price....')
-    price=driver.find_element(By.CSS_SELECTOR,'[class="product-price__top"]')       # ATB
-    #price = driver.find_element(By.CSS_SELECTOR, '[class="current-integer"]')        #Silpo
-    #price = driver.find_element(By.CSS_SELECTOR, '[class="productDetails_price_actual__12u8E"]')   #Ashan
-    print(price.text)
+    # price=driver.find_element(By.CSS_SELECTOR,'[class="productDetails_price_actual__12u8E"]')       # ATB
+    # price = driver.find_element(By.CSS_SELECTOR, '[class="current-integer"]')        #Silpo
+    # price = driver.find_element(By.CSS_SELECTOR, '[class="productDetails_price_actual__12u8E"]')
+    # print(price.text)
 
 except Exception as ex:
     print(ex)

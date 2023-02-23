@@ -6,11 +6,12 @@ options=undetected_chromedriver.ChromeOptions()
 options.add_argument('--headless')
 try:
     driver=undetected_chromedriver.Chrome(options=options)
-    driver.get('https://www.atbmarket.com/product/kapusta-1-gat')
-    #time.sleep(5)
-    price = driver.find_element(By.CSS_SELECTOR, '[class="product-price__top"]').text
-    print(f'Цена: {price}')
-    print(type(price))
+    driver.get('https://novus.online/product/kartopla-rozeva-vag')
+    price = driver.find_element(By.CSS_SELECTOR, '[class="product-card__price-current h4"]').text
+    time.sleep(5)
+
+    print(f'Цена : {price}')
+
 
 except Exception as ex:
     print(ex)

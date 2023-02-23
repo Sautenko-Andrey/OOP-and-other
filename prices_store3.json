@@ -1,0 +1,172 @@
+{
+  "obolon_premium_1.1_l": {
+    "atb": 34.5,
+    "eko": 52.95
+  },
+  "vodka_hetman_ice_07": {
+    "atb": 147.6
+  },
+  "coca_cola_2l": {
+    "atb": 42.6,
+    "eko": 42.5,
+    "varus": 42.6,
+    "silpo": 38.17,
+    "ashan": 38.9
+  },
+  "garlik": {
+    "atb": 103.9,
+    "eko": 119.0,
+    "varus": 104.9,
+    "silpo": 9.5
+  },
+  "tea_minutka": {
+    "atb": 28.9,
+    "eko": 26.9
+  },
+  "apple_golden": {
+    "atb": 18.95,
+    "eko": 17.9,
+    "varus": 18.9,
+    "silpo": 2.1
+  },
+  "sigarets_kent_8": {
+    "atb": 83.95,
+    "eko": 84.0,
+    "varus": 81.9,
+    "silpo": 85.94
+  },
+  "coffee_aroma_gold": {
+    "eko": 112.9
+  },
+  "oil_shedriy_dar_raf_850": {
+    "atb": 65.88,
+    "eko": 66.9,
+    "varus": 0,
+    "silpo": 64.49
+  },
+  "fairy_limon_500": {
+    "atb": 66.9,
+    "eko": 73.0,
+    "varus": 8.9,
+    "silpo": 55.0
+  },
+  "onion": {
+    "atb": 43.95,
+    "eko": 43.8,
+    "varus": 43.9,
+    "silpo": 4.39
+  },
+  "apple_black_prince": {
+    "atb": 20.95,
+    "eko": 16.99,
+    "varus": 20.9,
+    "silpo": 2.0
+  },
+  "smetana_stol_smaky_20%": {
+    "varus": 0
+  },
+  "limon": {
+    "atb": 0,
+    "eko": 69.9,
+    "varus": 63.9,
+    "silpo": 5.5
+  },
+  "oil_oleyna_neraf_850": {
+    "eko": 71.89
+  },
+  "tea_monomah_kenya_90": {
+    "eko": 76.09
+  },
+  "arko_cool_200": {
+    "atb": 0,
+    "eko": 85.65,
+    "varus": 79.9,
+    "silpo": 84.99
+  },
+  "arko_sensitive_200": {
+    "atb": 76.3,
+    "eko": 85.65,
+    "varus": 76.9,
+    "silpo": 84.99
+  },
+  "carrot": {
+    "atb": 31.89,
+    "eko": 30.9,
+    "varus": 31.9,
+    "silpo": 3.64
+  },
+  "cabbage": {
+    "atb": 13.95,
+    "eko": 11.9,
+    "varus": 16.9,
+    "silpo": 1.2
+  },
+  "eggs": {
+    "atb": 57.9,
+    "eko": 4.99,
+    "varus": 5.91,
+    "silpo": 63.49
+  },
+  "mayonez_detsk_shedro_67%": {
+    "atb": 33.3,
+    "eko": 40.15,
+    "varus": 32.1,
+    "silpo": 32.39
+  },
+  "rexona_aloe_vera": {
+    "eko": 68.8
+  },
+  "marlboro_red": {
+    "atb": 84.95,
+    "eko": 83.0,
+    "varus": 83.0,
+    "silpo": 84.94,
+    "ashan": 85.0
+  },
+  "beer_lvivske_svetl_2.4 l": {
+    "varus": 81.9,
+    "silpo": 81.99
+  },
+  "smetana_stol_smaky_15%": {
+    "varus": 0
+  },
+  "water_in_bottle_6l": {
+    "atb": 42.8,
+    "eko": 57.69,
+    "varus": 34.4
+  },
+  "pork_lopatka": {
+    "atb": 159.9,
+    "eko": 145.9,
+    "varus": 129.9
+  },
+  "potato": {
+    "atb": 7.59,
+    "eko": 7.5,
+    "varus": 18.9
+  },
+  "beet": {
+    "atb": 9.29,
+    "eko": 9.2,
+    "varus": 9.2,
+    "silpo": 0.85
+  },
+  "four": {
+    "atb": 20.6,
+    "eko": 21.9,
+    "varus": 14.9
+  },
+  "oil_for_dish": {
+    "atb": 61.59,
+    "eko": 59.9,
+    "varus": 61.5
+  },
+  "smetana_for_dish": {
+    "atb": 36.8,
+    "eko": 36.2,
+    "varus": 35.3
+  },
+  "desodorant_garnier_man": {
+    "silpo": 104.0
+  }
+}

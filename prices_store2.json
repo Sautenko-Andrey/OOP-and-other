@@ -1,0 +1,15 @@
+{
+   "marlboro red": {
+      "atb": 77.0,
+      "eko": 79.0,
+      "varus": 81.0
+   },
+   "kent 8": {
+      "atb": 1000.0,
+      "eko": 100.0,
+      "varus": 333.0
+   },
+   "beer obolon": {
+      "atb": 34.5
+   }
+}

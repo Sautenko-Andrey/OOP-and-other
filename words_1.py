@@ -387,6 +387,11 @@ def main():
                   'ФУНКЦИИ ВЫСШЕГО ПОРЯДКА': 'HIGHER ORDER FUNCTIONS', 'ДОЛЯ/АКЦИИ': 'EQUITY',
                   'МАСТЕР НА ВСЕ РУКИ': 'JACK OF ALL TRADES','ПРОТОТИП':'PROTOTYPE','ТМИН':'CUMIN',
                   'НАМАЗЫВАТЬ/РАЗМАЗЫВАТЬ':'TO SMEAR',
+                  'ВИРУСНЫЙ':'VIRAL','ЧМОШНЫЙ/ОТСТОЙНЫЙ':'DOUCHEY','ВТОРОКУРСНИК':'SOPHOMORE',
+                  'ХОРЕК/':'FERRET','ОЦЕНИВАТЬ|ПРОАНАЛИЗИРОВАТЬ':'TO EVALUATE','СИЛЬНЫЕ СТОРОНЫ':'STRENGTHS',
+                  'КОНЦЕПЦИЯ':'CONCEPT','ИНИЦИАТИВА':'INITIATIVE','КРИЧАТЬ':'SHOUT OUT','ЗАПУСКАТЬ С':'LAUNCH OFF',
+                  'ТРАМПЛИН':'RAMP','СКВЕРНО':'GNARLY','ПРИЗЕМЛЯТЬСЯ':'TO LAND','ЛАСКОВОЕ ОБРАЩЕНИЕ':'TERM OF ENDEARMENT',
+
                   }
 
     print('Слов в словаре:', len(vocabulary))
